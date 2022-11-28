@@ -20,6 +20,7 @@
 
 .button2
 {
+  width: 100%;
   margin-top: 0 auto;
   position: relative;
   margin: 100px auto;
@@ -56,6 +57,7 @@
 
 .iconsb
 {
+  margin-top: 3rem;
   margin: 100px auto;
 }
 
@@ -373,6 +375,12 @@
   text-align: center;
   
 }
+
+.ttrsection
+{
+  padding-top: 2rem;
+}
+
 .iconsb{
   display: flex;
   flex-wrap: wrap;
@@ -413,6 +421,10 @@
   color: white;
 }
 
+.subtitle5{
+ padding-top: 0;
+}
+
 .button2{
   margin-bottom: 4rem;
 }
@@ -428,6 +440,11 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+}
+
+@media (max-width: 1700px)
+{
 
 }
 

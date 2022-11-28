@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import {Box, Image, Button, Wrap, WrapItem, Stack, IconButton, Text} from '@chakra-ui/react' 
+import {Box, Image, Button, Wrap, WrapItem, Stack, IconButton, Text, Center} from '@chakra-ui/react' 
 import {Select, Input} from '@chakra-ui/react'
 import {CheckIcon} from '@chakra-ui/icons'
 import styles from '../styles/Home.module.css'
@@ -86,7 +86,7 @@ export default function Home() {
           <p className={styles.subtitle5}><strong>¿Cómo le beneficia una platafoma de administración y control vehicular?</strong></p>
           </div>        
           <div className={styles.iconsb}>
-            <Stack direction={['column', 'row']} spacing='100px'>
+            <Stack direction={['column', 'row']} spacing='50px'> 
               <Box>          
               <Image src="/img1.png" alt='img1' h={170} w={200} className={styles.licon}/>
               <Text fontSize='2xl'><strong>Estime tiempos de entrega</strong></Text>              
@@ -99,7 +99,7 @@ export default function Home() {
               <Image src="/img3.png" alt='img1' h={170} w={220} className={styles.licon}/>
               <Text className={styles.text2} fontSize='2xl'><strong>Verifique el estado de sus vehículos</strong></Text>
               </Box>
-            </Stack>                     
+            </Stack>                 
             </div>
           <div className={styles.button2}><Button colorScheme="blackAlpha" variant="solid" className={styles.btn}>Obtener lista de verificación</Button></div>          
         </div>                
