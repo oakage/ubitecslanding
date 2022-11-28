@@ -1,31 +1,243 @@
 .container {
-  padding: 0 2rem;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;    
+  position: relative;
+}
+
+.button
+{
+  padding: 3rem;
+}
+
+.button2
+{
+  margin-top: 0 auto;
+  position: relative;
+  margin: 100px auto;
+}
+
+.btn{
+  width:32rem;
+  margin: 0px auto;
+}
+
+.logo{  
+  padding: 3rem;  
+  height: 100vh;
+  width: 100vh;
+}
+
+.tablet{    
+  position: relative;
+}
+
+
+.compu{  
+  padding: 3rem;  
+  margin-left: 13rem;
+  height: 100vh;
+  width: 100vh;
+}
+
+.licon{  
+  height: 100vh;
+  margin: 0px auto;
+  
+}
+
+.iconsb
+{
+  margin: 100px auto;
+}
+
+.text{
+  font-family: sans-serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: white;
+}
+
+.tex2{
+  font-family: Continuum;
+  font-size: 100rem;  
+  color: black;
+}
+
+
+.subtitle{
+  font-family: 'Actor';
+  padding-top: 3rem;
+  font-size: 2.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: white;
+}
+
+.subtitle2{
+  font-family: 'Actor';
+  padding-top: 3rem;
+  font-size: 25px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: white;
+}
+
+.subtitle3{
+  font-family: 'Actor';
+  padding-top: 3rem;
+  font-size: 30px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-bottom: 3rem;
+  color: black;
+}
+
+.subtitle4{
+  height: 410px;
+  font-family: 'Actor';
+  padding-top: 6rem;
+  font-size: 20px;
+  padding-left: 3rem;
+  padding-right: 1rem;
+  color: white;
+}
+
+.subtitle5{
+  font-family: 'Actor';
+  padding-top: 3rem;
+  font-size: 30px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin: 0px auto;
+  color: black;
+}
+
+.textarea{
+  margin-left: 3rem;
+  height: 1rem;  
+  margin-bottom: 2rem;
+  width: 90%
+}
+
+.rsection
+{
+  width: 100%;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #AF0404;  
+  height: 110vh;
+  position: relative;
+  
+}
+
+.fcontainer
+{
+  position: relative;
+  height: 100vh;
+  width: 40%;  
+  margin-left: 5rem;
+  align-items:center;
+}
+
+.lcontainer
+{
+  position: relative;
+  height: 35vh;
+  width: 80%;  
+  margin-left: 5rem;
+  align-items:center;
+}
+
+.llcontainer
+{
+  position: relative;
+  height: 15vh;
+  width: 100%;  
+  align-items:center;
+}
+
+.benefits{
+  padding: 3rem;
+  position: relative;
+  height: 100vh;
+  width: 50%;
+  margin-left:3rem;
+}
+
+.benefitext
+{
+  font-family: 'Actor';
+  font-size: 25px;  
+  color: black;
+  margin-left:3rem;
+  margin-right:4rem;
+  margin-bottom: 3rem;
+}
+
+.wsection
+{
+  width: 100%;
+  min-width: 300px;
+  background-color: white;  
+  height: 120vh;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trsection
+{
+  min-width: 300px;
+  background-color: #AF0404;
+  position: relative;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+  display: flex;
+  flex-wrap: wrap;
+}
+.ttrsection
+{
+  min-width: 300px;
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: auto;  
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo
+{
+  position: relative;
 }
 
 .footer {
+  position: relative;
+  top: 0;
   display: flex;
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  background-color: #AF0404;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.footertext{
+  font-family: Continuum;
+  font-size: large;
+  color: white;
 }
 
 .title a {
@@ -108,11 +320,115 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
+.test{
+  font-family: Continuum;
+}
+
+.test2{
+  font-family: 'Actor';
+}
+
+.test3{
+  font-family: sans-serif;
+}
+
+@media (max-width: 1500px) {
+  .logo{
+    margin: 0px auto;
+  }
+
+  .tablet
+  {
+    margin: 0px auto;
+    margin-bottom: 5rem;
+  }
+
+  .compu{  
+    margin: 0px auto;        
+    height: 100vh;
+    width: 100vh;
+  }
+  
+
+  .rsection{
+    text-align: center;
+    height: auto;
+    position: relative;
     flex-direction: column;
   }
+
+  .wsection{
+    text-align: center;
+    height: auto;
+  }
+  
+  .trsection
+{
+  min-width: 300px;
+  background-color: #AF0404;
+  position: relative;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+  height: 50rem;
+  text-align: center;
+  
+}
+.iconsb{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin:0px auto;
+}
+
+  .benefits{
+    height: auto;
+    margin-left: 0;
+    margin-top: 4rem;  
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+
+  .fcontainer
+  {
+    height:auto;
+    margin: 0;
+    width: 100%;
+  }
+
+  .lcontainer
+{
+  position: relative;
+  height: 25vh;
+  width: 100%;    
+  text-align:center;
+  margin: 0;
+}
+
+.subtitle4{
+  height: 300px;
+  font-family: 'Actor';
+  font-size: 20px;  
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+}
+
+.button2{
+  margin-bottom: 4rem;
+}
+
+.ttrsection
+{
+  min-width: 300px;
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: auto;  
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 }
 
 @media (prefers-color-scheme: dark) {
